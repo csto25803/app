@@ -1,0 +1,17 @@
+[
+  {
+    "name": "トマト",
+    "type": "vegetable",
+    "expiry": "2025-07-12"
+  },
+  {
+    "name": "鶏むね肉",
+    "type": "protein",
+    "expiry": "2025-07-10"
+  },
+  {
+    "name": "ヨーグルト",
+    "type": "dairy",
+    "expiry": "2025-07-09"
+  }
+]

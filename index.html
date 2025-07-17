@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>俺たちを煮るか捨てるか決めてくれ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🥕俺たちを煮るか捨てるか決めてくれ🍖</h1>
+
+  <div class="input-area">
+    <input type="text" id="name" placeholder="食材名">
+    <input type="date" id="expiry">
+    <select id="type">
+      <option value="vegetable">野菜</option>
+      <option value="meat">肉</option>
+      <option value="fish">魚</option>
+      <option value="egg">卵</option>
+      <option value="dairy">乳製品</option>
+      <option value="snack">お菓子</option>
+      <option value="other">その他</option>
+    </select>
+    <button id="add-btn" type="button">追加</button>
+  </div>
+
+  <div id="ingredient-list" class="card-grid"></div>
+
+   <div class="export-area">
+    <a href="diary.html" class="button-link">📝 日記</a>
+  </div>
+
+  <footer>
+    <p>© 2025 冷蔵庫人格研究所</p>
+  </footer>
+
+  <!-- スクリプトの読み込みは最後に！ -->
+  <script src="script.js"></script>
+</body>
+</html>
